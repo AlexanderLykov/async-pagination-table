@@ -88,6 +88,8 @@ export const App = () => {
       }}
       loading={loading}
       onChange={handleTableChange}
+      scroll={{ y: 550 }}
+      bordered
     />
   );
 }
